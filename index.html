@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(7, 24, 70);
+            color: white;
+            /* font-family: 'Lilita One', cursive; */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 60px;
+            background-color: rgb(7, 23, 65);
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            margin: 5px 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+
+        .navbar ul li a:hover {
+            font-size: 1.1rem;
+            color: blueviolet;
+            /* border: 2px solid blueviolet;
+            background-color: rgba(255, 255, 255, 0.685);
+            border-radius: 20px; */
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0px;
+            align-items: center;
+        }
+
+        /* > because we just want to give width 30% to imigitae div only */
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+            /* margin: 50px; */
+
+        }
+
+        .rightsection {
+            /* background-color: tomato; */
+        }
+
+        .rightsection img {
+            width: 80%;
+            height: 100%;
+            /* margin: 0px 30px; */
+        }
+
+        /* utility class */
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            background-color: rgb(120, 120, 184);
+            border: 0;
+            height: 3.2px;
+            margin: 27px 30px;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .secondsection .horizontal {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            /* justify-content: space-around; */
+        }
+
+        .secondsection .vertical {
+            background-color: white;
+            width: 2px;
+            height: 92px;
+            margin: 0 56px;
+        }
+
+        .imageTop {
+            width: 45px;
+            position: relative;
+            top: -47px;
+            left: -15px;
+        }
+
+        .verticalTitle {
+            position: relative;
+            top: 41px;
+            left: -34px;
+            width: 90px;
+        }
+
+        .verticalDesc {
+            position: relative;
+            top: 38px;
+            left: -34px;
+            width: 90px;
+            font-size: 9px;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background: #3135a0;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftsection a{
+            color: white;
+            text-decoration: none;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">Sourabh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+
+                Hii!! I am <span class="purple">Sourabh Chouhan.</span>
+
+                <div>I am </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1MGM0Tz3HXTN1jAbcD3D0UoD5m7zXLbCv/view?usp=drive_link">Download Resume</a></button>
+                    <button class="btn"><a href="">Github Link</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img/bg.png" alt="icon" srcset="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Past Experience </h1>
+            <div class="horizontal">
+                <div class="vertical">
+                    <img class="imageTop" src="img/developer (1).png" alt="">
+                    <div class="verticalTitle">Class 10th</div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, modi
+                        excepturi accusantium voluptatum aspernatur, blanditiis delectus voluptatibus laboriosam</div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="img/developer (1).png" alt="">
+                    <div class="verticalTitle">Class 12th</div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, modi
+                        excepturi accusantium voluptatum aspernatur, blanditiis delectus voluptatibus laboriosam</div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="img/developer (1).png" alt="">
+                    <div class="verticalTitle">Jeeadvance</div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, modi
+                        excepturi accusantium voluptatum aspernatur, blanditiis delectus voluptatibus laboriosam</div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="img/developer (1).png" alt="">
+                    <div class="verticalTitle">IIT firstYear</div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, modi
+                        excepturi accusantium voluptatum aspernatur, blanditiis delectus voluptatibus laboriosam</div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="img/developer (1).png" alt="">
+                    <div class="verticalTitle">IITSecondYear</div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, modi
+                        excepturi accusantium voluptatum aspernatur, blanditiis delectus voluptatibus laboriosam</div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Aerospace student,', 'Graphic Designer,', 'Web Developer.',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
